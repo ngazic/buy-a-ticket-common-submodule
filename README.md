@@ -48,6 +48,12 @@ Run:
 npm run pub # adds new code to git, increase package version, builds the new version and publishes it to NPM
 ```
 
+In other services that use this package, run:
+
+```
+npm update @ngazicticketingapp/common
+```
+
 ## Routes
 
 ### /api/users/signup
