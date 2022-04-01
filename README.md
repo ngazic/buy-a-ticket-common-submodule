@@ -39,6 +39,14 @@ tsc --init
    ```
 
 5. Take a detail look into .gitignore and package.json config file
+   
+## Updating package
+
+Run:
+
+```
+npm run pub # adds new code to git, increase package version, builds the new version and publishes it to NPM
+```
 
 ## Routes
 
