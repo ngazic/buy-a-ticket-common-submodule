@@ -4,7 +4,7 @@ There might be differences in our TS settings between the common lib and other s
 
 That's why our common library will be written as TS and published as Java Script. 
 
-## Creating organization public npm package for common code reuse
+## Creating organization public npm package **ngazicticketingapp/common** for common code reuse
 
 1. Package initialization and creation
 ```
