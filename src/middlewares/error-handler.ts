@@ -12,6 +12,9 @@ export const errorHandlerMiddleware = (
     return res.status(err.statusCode).send({ errors: err.serializeErrors()});
   }
 
+  // For better logging unexpected type of errors
+  console.error(err)
+
   res.status(404).send({ message: 'Something went wrong!!' })
 };
 
