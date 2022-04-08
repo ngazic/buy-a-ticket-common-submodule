@@ -16,6 +16,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "node-nats-streaming": "^0.3.2",
     "@types/cookie-session": "^2.0.44",
     "@types/jsonwebtoken": "^8.5.8",
     "cookie-session": "^2.0.0",
