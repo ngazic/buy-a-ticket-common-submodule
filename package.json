@@ -1,7 +1,7 @@
 {
   "name": "@ngazicticketingapp/common",
   "version": "1.0.27",
-  "description": "",
+  "description": "Common library for ticketing app",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
   "files": [
